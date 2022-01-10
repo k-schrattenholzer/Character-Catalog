@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from './Characters.css';
 
 export default function Characters({ characters }) {
+
   return (
     <ul aria-label="characters" className={styles.list}>
       {characters.map((character) => (
