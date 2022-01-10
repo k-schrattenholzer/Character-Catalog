@@ -36,6 +36,7 @@ export default function CharacterList() {
           <img
             src={loadingSpinner}
             alt="loading characters"
+            aria-label="loading characters"
             style={{ width: '20px', height: '20px', display: 'inline' }}
           />
         )}
